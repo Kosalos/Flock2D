@@ -1,0 +1,353 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D677A19155F464300783780 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 1D677A18155F464300783780 /* icon.png */; };
+		1DAC437B155F2642005A400D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DAC437A155F2642005A400D /* UIKit.framework */; };
+		1DAC437D155F2642005A400D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DAC437C155F2642005A400D /* Foundation.framework */; };
+		1DAC437F155F2642005A400D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DAC437E155F2642005A400D /* CoreGraphics.framework */; };
+		1DAC4385155F2642005A400D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1DAC4383155F2642005A400D /* InfoPlist.strings */; };
+		1DAC4387155F2642005A400D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DAC4386155F2642005A400D /* main.m */; };
+		1DAC438B155F2642005A400D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DAC438A155F2642005A400D /* AppDelegate.m */; };
+		1DAC438E155F2642005A400D /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1DAC438C155F2642005A400D /* MainStoryboard.storyboard */; };
+		1DAC4391155F2642005A400D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DAC4390155F2642005A400D /* ViewController.m */; };
+		1DAC4399155F2678005A400D /* quartzView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DAC4398155F2678005A400D /* quartzView.m */; };
+		1DB2D0D61564241A00F930BD /* Boid.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DB2D0D51564241900F930BD /* Boid.m */; };
+		1DB2D0D91564251C00F930BD /* Flock.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DB2D0D81564251B00F930BD /* Flock.m */; };
+		1DB2D0DD15642B9800F930BD /* bird.png in Resources */ = {isa = PBXBuildFile; fileRef = 1DB2D0DA15642B9800F930BD /* bird.png */; };
+		1DB2D0E61564AD4100F930BD /* bird2.png in Resources */ = {isa = PBXBuildFile; fileRef = 1DB2D0E41564AD4100F930BD /* bird2.png */; };
+		1DB2D0E71564AD4100F930BD /* bird3.png in Resources */ = {isa = PBXBuildFile; fileRef = 1DB2D0E51564AD4100F930BD /* bird3.png */; };
+		1DB2D0EC1564CBAB00F930BD /* sky.png in Resources */ = {isa = PBXBuildFile; fileRef = 1DB2D0EB1564CBAB00F930BD /* sky.png */; };
+		1DB2D0EE1564CFA800F930BD /* fifteen2.png in Resources */ = {isa = PBXBuildFile; fileRef = 1DB2D0ED1564CFA800F930BD /* fifteen2.png */; };
+		1DB2D0F01564CFBB00F930BD /* fifteenD.png in Resources */ = {isa = PBXBuildFile; fileRef = 1DB2D0EF1564CFBB00F930BD /* fifteenD.png */; };
+		1DB2D0F21564DC2200F930BD /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DB2D0F11564DC2200F930BD /* QuartzCore.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D677A18155F464300783780 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		1DAC4376155F2642005A400D /* Flock2D.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Flock2D.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DAC437A155F2642005A400D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		1DAC437C155F2642005A400D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1DAC437E155F2642005A400D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		1DAC4382155F2642005A400D /* Flock2D-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Flock2D-Info.plist"; sourceTree = "<group>"; };
+		1DAC4384155F2642005A400D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1DAC4386155F2642005A400D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1DAC4388155F2642005A400D /* Flock2D-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Flock2D-Prefix.pch"; sourceTree = "<group>"; };
+		1DAC4389155F2642005A400D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1DAC438A155F2642005A400D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1DAC438D155F2642005A400D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		1DAC438F155F2642005A400D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		1DAC4390155F2642005A400D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1DAC4397155F2678005A400D /* quartzView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = quartzView.h; sourceTree = "<group>"; };
+		1DAC4398155F2678005A400D /* quartzView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = quartzView.m; sourceTree = "<group>"; };
+		1DB2D0D41564241900F930BD /* Boid.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Boid.h; sourceTree = "<group>"; };
+		1DB2D0D51564241900F930BD /* Boid.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Boid.m; sourceTree = "<group>"; };
+		1DB2D0D71564251B00F930BD /* Flock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Flock.h; sourceTree = "<group>"; };
+		1DB2D0D81564251B00F930BD /* Flock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Flock.m; sourceTree = "<group>"; };
+		1DB2D0DA15642B9800F930BD /* bird.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bird.png; sourceTree = "<group>"; };
+		1DB2D0E41564AD4100F930BD /* bird2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bird2.png; sourceTree = "<group>"; };
+		1DB2D0E51564AD4100F930BD /* bird3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bird3.png; sourceTree = "<group>"; };
+		1DB2D0EB1564CBAB00F930BD /* sky.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sky.png; sourceTree = "<group>"; };
+		1DB2D0ED1564CFA800F930BD /* fifteen2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fifteen2.png; sourceTree = "<group>"; };
+		1DB2D0EF1564CFBB00F930BD /* fifteenD.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fifteenD.png; sourceTree = "<group>"; };
+		1DB2D0F11564DC2200F930BD /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1DAC4373155F2642005A400D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1DAC437B155F2642005A400D /* UIKit.framework in Frameworks */,
+				1DAC437D155F2642005A400D /* Foundation.framework in Frameworks */,
+				1DAC437F155F2642005A400D /* CoreGraphics.framework in Frameworks */,
+				1DB2D0F21564DC2200F930BD /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1DAC436B155F2641005A400D = {
+			isa = PBXGroup;
+			children = (
+				1DAC4380155F2642005A400D /* Flock */,
+				1DAC4379155F2642005A400D /* Frameworks */,
+				1DAC4377155F2642005A400D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1DAC4377155F2642005A400D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1DAC4376155F2642005A400D /* Flock2D.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1DAC4379155F2642005A400D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1DB2D0F11564DC2200F930BD /* QuartzCore.framework */,
+				1DAC437A155F2642005A400D /* UIKit.framework */,
+				1DAC437C155F2642005A400D /* Foundation.framework */,
+				1DAC437E155F2642005A400D /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1DAC4380155F2642005A400D /* Flock */ = {
+			isa = PBXGroup;
+			children = (
+				1DB2D0D41564241900F930BD /* Boid.h */,
+				1DB2D0D51564241900F930BD /* Boid.m */,
+				1DB2D0D71564251B00F930BD /* Flock.h */,
+				1DB2D0D81564251B00F930BD /* Flock.m */,
+				1DAC4397155F2678005A400D /* quartzView.h */,
+				1DAC4398155F2678005A400D /* quartzView.m */,
+				1DAC4389155F2642005A400D /* AppDelegate.h */,
+				1DAC438A155F2642005A400D /* AppDelegate.m */,
+				1DAC438C155F2642005A400D /* MainStoryboard.storyboard */,
+				1DAC438F155F2642005A400D /* ViewController.h */,
+				1DAC4390155F2642005A400D /* ViewController.m */,
+				1DAC4381155F2642005A400D /* Supporting Files */,
+			);
+			name = Flock;
+			path = Traffic;
+			sourceTree = "<group>";
+		};
+		1DAC4381155F2642005A400D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1DB2D0DA15642B9800F930BD /* bird.png */,
+				1DB2D0E41564AD4100F930BD /* bird2.png */,
+				1DB2D0E51564AD4100F930BD /* bird3.png */,
+				1DB2D0EB1564CBAB00F930BD /* sky.png */,
+				1DB2D0ED1564CFA800F930BD /* fifteen2.png */,
+				1DB2D0EF1564CFBB00F930BD /* fifteenD.png */,
+				1D677A18155F464300783780 /* icon.png */,
+				1DAC4382155F2642005A400D /* Flock2D-Info.plist */,
+				1DAC4383155F2642005A400D /* InfoPlist.strings */,
+				1DAC4386155F2642005A400D /* main.m */,
+				1DAC4388155F2642005A400D /* Flock2D-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1DAC4375155F2642005A400D /* Flock2D */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DAC4394155F2642005A400D /* Build configuration list for PBXNativeTarget "Flock2D" */;
+			buildPhases = (
+				1DAC4372155F2642005A400D /* Sources */,
+				1DAC4373155F2642005A400D /* Frameworks */,
+				1DAC4374155F2642005A400D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Flock2D;
+			productName = Traffic;
+			productReference = 1DAC4376155F2642005A400D /* Flock2D.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1DAC436D155F2641005A400D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "AHA Software, Inc.";
+				TargetAttributes = {
+					1DAC4375155F2642005A400D = {
+						DevelopmentTeam = 7237X7VY2S;
+					};
+				};
+			};
+			buildConfigurationList = 1DAC4370155F2641005A400D /* Build configuration list for PBXProject "Flock2D" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 1DAC436B155F2641005A400D;
+			productRefGroup = 1DAC4377155F2642005A400D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1DAC4375155F2642005A400D /* Flock2D */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1DAC4374155F2642005A400D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1DAC4385155F2642005A400D /* InfoPlist.strings in Resources */,
+				1DAC438E155F2642005A400D /* MainStoryboard.storyboard in Resources */,
+				1D677A19155F464300783780 /* icon.png in Resources */,
+				1DB2D0DD15642B9800F930BD /* bird.png in Resources */,
+				1DB2D0E61564AD4100F930BD /* bird2.png in Resources */,
+				1DB2D0E71564AD4100F930BD /* bird3.png in Resources */,
+				1DB2D0EC1564CBAB00F930BD /* sky.png in Resources */,
+				1DB2D0EE1564CFA800F930BD /* fifteen2.png in Resources */,
+				1DB2D0F01564CFBB00F930BD /* fifteenD.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1DAC4372155F2642005A400D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1DAC4387155F2642005A400D /* main.m in Sources */,
+				1DAC438B155F2642005A400D /* AppDelegate.m in Sources */,
+				1DAC4391155F2642005A400D /* ViewController.m in Sources */,
+				1DAC4399155F2678005A400D /* quartzView.m in Sources */,
+				1DB2D0D61564241A00F930BD /* Boid.m in Sources */,
+				1DB2D0D91564251C00F930BD /* Flock.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1DAC4383155F2642005A400D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1DAC4384155F2642005A400D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1DAC438C155F2642005A400D /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1DAC438D155F2642005A400D /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1DAC4392155F2642005A400D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = "";
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				ONLY_ACTIVE_ARCH = NO;
+				RUN_CLANG_STATIC_ANALYZER = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		1DAC4393155F2642005A400D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = "";
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				RUN_CLANG_STATIC_ANALYZER = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1DAC4395155F2642005A400D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				DEVELOPMENT_TEAM = 7237X7VY2S;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Traffic/Flock2D-Prefix.pch";
+				GCC_VERSION = "";
+				INFOPLIST_FILE = "Traffic/Flock2D-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				PRODUCT_NAME = Flock2D;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		1DAC4396155F2642005A400D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				DEVELOPMENT_TEAM = 7237X7VY2S;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Traffic/Flock2D-Prefix.pch";
+				GCC_VERSION = "";
+				INFOPLIST_FILE = "Traffic/Flock2D-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				PRODUCT_NAME = Flock2D;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DAC4370155F2641005A400D /* Build configuration list for PBXProject "Flock2D" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DAC4392155F2642005A400D /* Debug */,
+				1DAC4393155F2642005A400D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		1DAC4394155F2642005A400D /* Build configuration list for PBXNativeTarget "Flock2D" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DAC4395155F2642005A400D /* Debug */,
+				1DAC4396155F2642005A400D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1DAC436D155F2641005A400D /* Project object */;
+}
